@@ -39,3 +39,9 @@ body {
   height: 10vh;
   background-color: skyblue;
 }
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
