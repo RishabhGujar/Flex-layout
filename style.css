@@ -7,9 +7,12 @@
   height: 10vh;
   background-color: red;
   text-align: center;
+  position: fixed;
+  top: 0;
 }
 .container {
   display: flex;
+  margin-top: 10vh;
 }
 .section-all {
   overflow-y: scroll;
