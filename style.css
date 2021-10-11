@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+.main-container {
+  min-height: 100vh;
+}
 .header {
   width: 100vw;
   height: 10vh;
@@ -12,7 +15,9 @@
 }
 .container {
   display: flex;
-  margin-top: 10vh;
+  position: fixed;
+  top: 10vh;
+  bottom: 10vh;
 }
 .section-all {
   overflow-y: scroll;
@@ -35,7 +40,7 @@
 .footer {
   background-color: black;
   width: 100vw;
-  height: 10vw;
+  height: 10vh;
   color: white;
   text-align: center;
   position: fixed;
